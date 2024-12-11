@@ -1,0 +1,26 @@
+{
+  "name": "alx-files_manager",
+  "version": "1.0.0",
+  "description": "1. **Install Dependencies**: Install Express using `npm install express`.\r 2. **Setup Express App**:\r    - Import Express: `const express = require('express');`\r    - Create an app instance: `const app = express();`\r 3. **Define Routes**:\r    - Use `app.get`, `app.post`, etc., to define endpoints:  \r      ```javascript\r      app.get('/api/endpoint', (req, res) => {\r        res.send('Hello, API!');\r      });\r      ```\r 4. **Use Middleware**:\r    - Parse JSON with `express.json()`.\r    - Handle CORS with a package like `cors`.\r 5. **Start the Server**:\r    - Call `app.listen(port, () => console.log(`Server running on port ${port}`));`.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev0": "node 0_main.js",
+    "dev1": "node 1_main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patty6339/alx-files_manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patty6339/alx-files_manager/issues"
+  },
+  "homepage": "https://github.com/patty6339/alx-files_manager#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
